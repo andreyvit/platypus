@@ -1,0 +1,6 @@
+.DS_Store
+/build
+/Script_Exec/build
+/command_line_tool/build
+*.pbxuser
+*.mode?v?
