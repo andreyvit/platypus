@@ -87,7 +87,7 @@
 
 ///////////// DEFINITIONS ////////////////
 
-#define		OPT_STRING			"P:c:f:a:t:o:i:u:p:V:s:I:ASDBRvhX:T:G:N:b" 
+#define		OPT_STRING			"P:c:f:a:t:o:i:u:p:V:s:I:ASDFBRvhX:T:G:N:b" 
 
 //#define		DEBUG				1
 
@@ -252,6 +252,9 @@ int main (int argc, const char * argv[])
 				break;
 			case 'D':
 				[appSpec setProperty: [NSNumber numberWithBool: YES] forKey: @"Droppable"];
+				break;
+			case 'F':
+				[appSpec setProperty: [NSNumber numberWithBool: YES] forKey: @"AppPathAsFirstArg"];
 				break;
 			case 'B':
 				[appSpec setProperty: [NSNumber numberWithBool: YES] forKey: @"ShowInDock"];				
