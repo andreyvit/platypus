@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IBClasses</key>
+	<array>
+		<dict>
+			<key>ACTIONS</key>
+			<dict>
+				<key>cancel</key>
+				<string>id</string>
+			</dict>
+			<key>CLASS</key>
+			<string>ScriptExecController</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>OUTLETS</key>
+			<dict>
+				<key>aboutMenuItem</key>
+				<string>id</string>
+				<key>applicationMenu</key>
+				<string>id</string>
+				<key>cancelButton</key>
+				<string>id</string>
+				<key>hideMenuItem</key>
+				<string>id</string>
+				<key>messageTextField</key>
+				<string>id</string>
+				<key>progressBar</key>
+				<string>id</string>
+				<key>progressWindow</key>
+				<string>id</string>
+				<key>quitMenuItem</key>
+				<string>id</string>
+				<key>textOutputCancelButton</key>
+				<string>id</string>
+				<key>textOutputProgressIndicator</key>
+				<string>id</string>
+				<key>textOutputTextField</key>
+				<string>id</string>
+				<key>textOutputWindow</key>
+				<string>id</string>
+				<key>webOutputCancelButton</key>
+				<string>id</string>
+				<key>webOutputProgressIndicator</key>
+				<string>id</string>
+				<key>webOutputWebView</key>
+				<string>id</string>
+				<key>webOutputWindow</key>
+				<string>id</string>
+			</dict>
+			<key>SUPERCLASS</key>
+			<string>NSObject</string>
+		</dict>
+		<dict>
+			<key>CLASS</key>
+			<string>FirstResponder</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>SUPERCLASS</key>
+			<string>NSObject</string>
+		</dict>
+	</array>
+	<key>IBVersion</key>
+	<string>1</string>
+</dict>
+</plist>

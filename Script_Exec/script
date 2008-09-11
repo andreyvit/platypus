@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+
+print "<html><body><ol>";
+
+$i = 0;
+while ($i < 100)
+{
+	print "<li>$i: SmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmoo SmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmooSmoo</li>\n";
+	$i++;
+}

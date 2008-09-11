@@ -1,0 +1,25 @@
+
+* More and better sample scripts
+* Icon editable for file types?
+* Command line tool using Profiles
+* Revise documentation
+* AppRoleRadioButton dót
+
+** FIXED *** Fixed bug where "Run Script in Terminal" command failed to escape script path
+** FIXED *** "Show Shell Command" in Platypus now includes the icon parameter
+** FIXED *** Profiles have starting working again, and working properly
+** FIXED *** Implement option to add params to script interpreter
+** FIXED *** Implementa params dótið í platypus exec-ið
+** FIXED *** Fix "Show Shell Command" bug **
+** FIXED *** Fix reverse properties for min system version
+** FIXED *** Fix multiple same bundled files ** FIXED **
+** FIXED *** Fix profiles **
+** FIXED *** Optimized bundled executable
+** FIXED *** Fixed memory leak in bundled executable and associated crashes when script produced massive text output
+** FIXED **** Now just for 10.4
+** FIXED **** Interface changes
+** FIXED **** Estimated final app size
+** FIXED *** New icons
+** FIXED *** Updated to latest IconFamily code
+** FIXED *** Set text field encoding, font, size and color
+** FIXED *** Command line tool installed through Preferences

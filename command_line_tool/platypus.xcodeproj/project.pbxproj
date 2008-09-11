@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F9A0486AA7600D96B5E /* platypus.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* platypus.m */; settings = {ATTRIBUTES = (); }; };
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		8DD76F9F0486AA7600D96B5E /* platypus.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* platypus.1 */; };
+		F48380C807950B2B00E14AB5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48380C707950B2B00E14AB5 /* Cocoa.framework */; };
+		F48383280795450E00E14AB5 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48383270795450E00E14AB5 /* Carbon.framework */; };
+		F4A432C70E04B2BA000523E7 /* IconFamily.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A432C50E04B2BA000523E7 /* IconFamily.m */; };
+		F4A433130E04B54C000523E7 /* PlatypusAppSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A433110E04B54C000523E7 /* PlatypusAppSpec.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F9F0486AA7600D96B5E /* platypus.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* platypus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = platypus.m; sourceTree = "<group>"; };
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8DD76FA10486AA7600D96B5E /* platypus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = platypus; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859EA3029092ED04C91782 /* platypus.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = platypus.1; sourceTree = "<group>"; };
+		F451D39F0E086E5100704E20 /* platypus.man.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = platypus.man.pdf; sourceTree = "<group>"; };
+		F48380C707950B2B00E14AB5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		F48383270795450E00E14AB5 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		F4A432C50E04B2BA000523E7 /* IconFamily.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IconFamily.m; path = ../IconFamily.m; sourceTree = SOURCE_ROOT; };
+		F4A432C60E04B2BA000523E7 /* IconFamily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconFamily.h; path = ../IconFamily.h; sourceTree = SOURCE_ROOT; };
+		F4A432EF0E04B332000523E7 /* platypus_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platypus_Prefix.pch; sourceTree = "<group>"; };
+		F4A433110E04B54C000523E7 /* PlatypusAppSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlatypusAppSpec.m; path = ../PlatypusAppSpec.m; sourceTree = SOURCE_ROOT; };
+		F4A433120E04B54C000523E7 /* PlatypusAppSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlatypusAppSpec.h; path = ../PlatypusAppSpec.h; sourceTree = SOURCE_ROOT; };
+		F4A433850E04C95A000523E7 /* CommonDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonDefs.h; path = ../CommonDefs.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+				F48380C807950B2B00E14AB5 /* Cocoa.framework in Frameworks */,
+				F48383280795450E00E14AB5 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* platypus */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				F4838171079543E100E14AB5 /* Support Classes */,
+				C6859EA2029092E104C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = platypus;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F4A433850E04C95A000523E7 /* CommonDefs.h */,
+				F4A432EF0E04B332000523E7 /* platypus_Prefix.pch */,
+				08FB7796FE84155DC02AAC07 /* platypus.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F48383270795450E00E14AB5 /* Carbon.framework */,
+				F48380C707950B2B00E14AB5 /* Cocoa.framework */,
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* platypus */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859EA2029092E104C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				F451D39F0E086E5100704E20 /* platypus.man.pdf */,
+				C6859EA3029092ED04C91782 /* platypus.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		F4838171079543E100E14AB5 /* Support Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F4838172079543FA00E14AB5 /* IconFamily */,
+				F4A433120E04B54C000523E7 /* PlatypusAppSpec.h */,
+				F4A433110E04B54C000523E7 /* PlatypusAppSpec.m */,
+			);
+			name = "Support Classes";
+			sourceTree = "<group>";
+		};
+		F4838172079543FA00E14AB5 /* IconFamily */ = {
+			isa = PBXGroup;
+			children = (
+				F4A432C50E04B2BA000523E7 /* IconFamily.m */,
+				F4A432C60E04B2BA000523E7 /* IconFamily.h */,
+			);
+			name = IconFamily;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F960486AA7600D96B5E /* platypus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4EAA9DF08AA7477003B66EC /* Build configuration list for PBXNativeTarget "platypus" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+				F451D3620E086A4600704E20 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = platypus;
+			productInstallPath = "$(HOME)/bin";
+			productName = platypus;
+			productReference = 8DD76FA10486AA7600D96B5E /* platypus */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F4EAA9E308AA7477003B66EC /* Build configuration list for PBXProject "platypus" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* platypus */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* platypus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F451D3620E086A4600704E20 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/platypus.1",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/platypus.man.pdf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/groff -Tps -mdoc -c 'platypus.1' | pstopdf -i -o platypus.man.pdf";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9A0486AA7600D96B5E /* platypus.m in Sources */,
+				F4A432C70E04B2BA000523E7 /* IconFamily.m in Sources */,
+				F4A433130E04B54C000523E7 /* PlatypusAppSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4EAA9E008AA7477003B66EC /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = platypus_Prefix.pch;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = platypus;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		F4EAA9E108AA7477003B66EC /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_CW_ASM_SYNTAX = YES;
+				GCC_ENABLE_ASM_KEYWORD = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = platypus_Prefix.pch;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = platypus;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		F4EAA9E208AA7477003B66EC /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = platypus_Prefix.pch;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = platypus;
+			};
+			name = Default;
+		};
+		F4EAA9E408AA7477003B66EC /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
+			};
+			name = Development;
+		};
+		F4EAA9E508AA7477003B66EC /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEAD_CODE_STRIPPING = YES;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = "";
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LINKER_DISPLAYS_MANGLED_NAMES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
+			};
+			name = Deployment;
+		};
+		F4EAA9E608AA7477003B66EC /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4EAA9DF08AA7477003B66EC /* Build configuration list for PBXNativeTarget "platypus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EAA9E008AA7477003B66EC /* Development */,
+				F4EAA9E108AA7477003B66EC /* Deployment */,
+				F4EAA9E208AA7477003B66EC /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F4EAA9E308AA7477003B66EC /* Build configuration list for PBXProject "platypus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EAA9E408AA7477003B66EC /* Development */,
+				F4EAA9E508AA7477003B66EC /* Deployment */,
+				F4EAA9E608AA7477003B66EC /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
